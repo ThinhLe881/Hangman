@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+}
+
+group 'org.thinh'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:20.1.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task start(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'org.thinh.Server'
+    standardInput = System.in
+}
+
+javafx {
+    modules = ['javafx.controls']
+    version = '11.0.2'
+}
+
+mainClassName = 'org.thinh.ClientGUI'
