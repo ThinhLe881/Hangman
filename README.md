@@ -5,12 +5,13 @@
 This program is a server/client based game of hangman, it also supports multiplayer, but all players can only play in one game, the program have not supported multiple game threads yet. Each player will take turns to guess letters or the word. If the players do not guess the word before the hanging man is drawn then they lose. If they are able to guess the word before they are out of chances then they win. \
 ![Start](/img/start.PNG)
 ![Menu](/img/menu.PNG)
-![In game](/img/game.PNG)
+![In-game](/img/game.PNG)
+![End](/img/end.PNG)
 
 ## Future Improvements:
 
 - Multiple game rooms
-- Smoother in game experience with multiple clients
+- Smoother in-game experience with multiple clients
 
 ## How to run
 
