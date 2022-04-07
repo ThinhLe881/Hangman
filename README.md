@@ -2,10 +2,15 @@
 
 ## Project Information
 
-This program is a server/client based game of hangman, it also support multiplayer, but all players can only play in one game, the program have not supported multiple game threads yet. Each player will take turns to guess letters or the word. If the players do not guess the word before the hanging man is drawn then they lose. If they are able to guess the word before they are out of chances then they win. \
-![Alt text](https://github.com/KevinLau24/csci2020u_hangman/blob/main/src/main/resources/images/clientConnect.PNG)
-![Alt text](https://github.com/KevinLau24/csci2020u_hangman/blob/main/src/main/resources/images/menu.PNG)
-![Alt text](https://github.com/KevinLau24/csci2020u_hangman/blob/main/src/main/resources/images/game.PNG)
+This program is a server/client based game of hangman, it also supports multiplayer, but all players can only play in one game, the program have not supported multiple game threads yet. Each player will take turns to guess letters or the word. If the players do not guess the word before the hanging man is drawn then they lose. If they are able to guess the word before they are out of chances then they win. \
+![Start](/img/start.PNG)
+![Menu](/img/menu.PNG)
+![In game](/img/game.PNG)
+
+## Future Improvements:
+
+- Multiple game rooms
+- Smoother in game experience with multiple clients
 
 ## How to run
 
@@ -25,7 +30,4 @@ In order to successfully run the program, here is a step-by-step process:
 
 ## Other resources
 
-[Random English Word Generator API](https://random-word-api.herokuapp.com/home) \
-[JavaFX Application Icon](https://stackoverflow.com/questions/10121991/javafx-application-icon) \
-[JavaFX TextArea](http://tutorials.jenkov.com/javafx/textarea.html#:~:text=A%20JavaFX%20TextArea%20control%20enables,scene) \
-[Auto Updating JavaFX UI](https://riptutorial.com/javafx/example/7291/updating-the-ui-using-platform-runlater)
+[Random English Word Generator API](https://random-word-api.herokuapp.com/home)
